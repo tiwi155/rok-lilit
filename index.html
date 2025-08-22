@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HN MODE - Rok Lilit Cantik & Stylish</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Header & Branding */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      border-bottom: 1px solid #ffc0cb;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ff4d6d;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 2px;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 40px 0;
+      gap: 40px;
+    }
+
+    .hero-text {
+      flex: 1 1 400px;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      color: #ff4d6d;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .btn-primary {
+      background-color: #ff4d6d;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-primary:hover {
+      background-color: #e03e5e;
+    }
+
+    .hero-img {
+      flex: 1 1 400px;
+      text-align: center;
+    }
+
+    .hero-img img {
+      max-width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(255, 77, 109, 0.3);
+    }
+
+    /* Features Section */
+    .features {
+      background-color: #fff;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 4px 15px rgba(255, 77, 109, 0.15);
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .features h2 {
+      color: #ff4d6d;
+      margin-bottom: 25px;
+      font-size: 2rem;
+    }
+
+    .features p {
+      max-width: 800px;
+      margin: auto;
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+      background-color: #ffe6ef;
+      padding: 40px 20px;
+      border-radius: 15px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      color: #ff4d6d;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .testimonial {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      font-style: italic;
+      color: #555;
+      position: relative;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(255, 77, 109, 0.15);
+    }
+
+    .testimonial::before {
+      content: "“";
+      font-size: 4rem;
+      color: #ff4d6d;
+      position: absolute;
+      top: 5px;
+      left: 15px;
+    }
+
+    .testimonial cite {
+      display: block;
+      margin-top: 15px;
+      font-style: normal;
+      font-weight: 700;
+      color: #ff4d6d;
+    }
+
+    /* Contact Section */
+    footer {
+      background-color: #ff4d6d;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+      font-size: 1rem;
+      border-radius: 0 0 15px 15px;
+    }
+
+    footer a {
+      color: white;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+
+      .hero-text h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero-text p {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="logo">HN MODE</div>
+  </header>
+
+  <section class="container hero">
+    <div class="hero-text">
+      <h1>Rok Lilit Cantik & Stylish</h1>
+      <p>
+        Temukan koleksi rok lilit terbaru dari HN MODE yang nyaman, elegan, dan cocok untuk semua acara. 
+        Bahan berkualitas tinggi dengan desain modern yang akan membuat penampilanmu makin memesona.
+      </p>
+      <a href="#buy" class="btn-primary">Beli Sekarang</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1556909111-1c8a1a0d95c9?auto=format&fit=crop&w=600&q=80" alt="Produk Rok Lilit HN MODE" />
+    </div>
+  </section>
+
+  <section class="container features">
+    <h2>Mengapa Pilih Rok Lilit HN MODE?</h2>
+    <p>
+      Rok lilit kami dirancang dengan perhatian pada detail, menggunakan bahan terbaik yang nyaman dipakai sepanjang hari. 
+      Desain yang fleksibel memungkinkan Anda memadupadankan dengan berbagai outfit, cocok untuk berbagai kesempatan. 
+      Pilihan warna pink dan putih yang feminin menambah kesan anggun dan segar pada penampilan Anda.
+    </p>
+  </section>
+
+  <section class="container testimonials">
+    <h2>Testimoni Pelanggan</h2>
+    <div class="testimonial">
+      "Rok lilit dari HN MODE sangat nyaman dan mudah dipakai. Saya suka sekali warna dan motifnya, membuat saya tampil lebih percaya diri."
+      <cite>- Nisa, Jakarta</cite>
+    </div>
+    <div class="testimonial">
+      "Desainnya elegan dan bahan berkualitas. Rok ini jadi favorit saya untuk acara formal maupun casual."
+      <cite>- Rina, Bandung</cite>
+    </div>
+  </section>
+
+  <footer>
+    <p>Hubungi kami: <a href="mailto:contact@hnmode.com">contact@hnmode.com</a> | Telepon: +62 812 3456 7890</p>
+    <p>© 2025 HN MODE. Semua hak cipta dilindungi.</p>
+  </footer>
+</body>
+</html>
